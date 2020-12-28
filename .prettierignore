@@ -1,0 +1,5 @@
+.cache
+public
+.idea
+.vscode
+node_modules
