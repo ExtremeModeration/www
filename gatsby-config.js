@@ -1,37 +1,42 @@
 module.exports = {
   siteMetadata: {
-    title: "ExtremeModeration",
+    title: 'ExtremeModeration',
   },
   plugins: [
-    "gatsby-plugin-netlify-cms",
-    "gatsby-plugin-theme-ui",
-    "gatsby-plugin-sharp",
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-mdx",
-    "gatsby-transformer-sharp",
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-plugin-netlify-cms',
       options: {
-        name: "images",
-        path: "./src/images/",
+        modulePath: './src/cms/cms.js',
       },
-      __key: "images",
     },
+    'gatsby-plugin-theme-ui',
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-mdx',
+    'gatsby-transformer-sharp',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        name: 'images',
+        path: './src/images/',
       },
-      __key: "pages",
+      __key: 'images',
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "blog",
-        path: "./src/blog"
-      }
+        name: 'pages',
+        path: './src/pages/',
+      },
+      __key: 'pages',
     },
-    "gatsby-transformer-remark"
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'blog',
+        path: './src/blog',
+      },
+    },
+    'gatsby-transformer-remark',
   ],
-};
+}
