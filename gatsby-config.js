@@ -1,14 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `ExtremeModeration`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `ExtremeModeration`,
+      summary: `who paints minis and streams on Twitch.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Offical site and blog for ExtremeModeration on Twitch`,
+    siteUrl: `https://extrememoderation.tv/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `ext_mod`,
+      twitch: `ExtremeModeration`,
     },
   },
   plugins: [
@@ -60,8 +61,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `ExtremeModeration`,
+        short_name: `ExtremeModeration`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
