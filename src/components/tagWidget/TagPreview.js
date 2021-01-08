@@ -1,10 +1,12 @@
-import React from 'react'
-import TagStyles from './style.module.css'
+import React from "react"
+import TagStyles from "./style.module.css"
 
-export const TagPreview = props => (
+export const TagPreview = ({ value }) => (
   <ul className={TagStyles.tags}>
-    {props.value.map((value, index) => (
-      <li className={TagStyles.tag} key={index}>{value}</li>
+    {value.map((content, index) => (
+      <li key={index} className={TagStyles.tag}>
+        {content}
+      </li>
     ))}
   </ul>
 )

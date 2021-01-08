@@ -1,4 +1,4 @@
-import CMS from 'netlify-cms-app'
-import { TagControl, TagPreview } from '../components/tagWidget'
+import CMS from "netlify-cms-app"
+import { TagControl, TagPreview } from "../components/tagWidget"
 
-CMS.registerWidget('tags', TagControl, TagPreview)
+CMS.registerWidget("tags", TagControl, TagPreview)

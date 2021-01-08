@@ -1,16 +1,15 @@
-import React from 'react'
-import { Link, graphql } from 'gatsby'
+import React from "react"
+import { Link, graphql } from "gatsby"
 
-import Bio from '../components/bio'
-import TagPreview from '../components/tagWidget/TagPreview'
-import Layout from '../components/layout'
-import SEO from '../components/seo'
-import { rhythm, scale } from '../utils/typography'
+import Bio from "../components/bio"
+import TagPreview from "../components/tagWidget/TagPreview"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
-const BlogPostTemplate = ({ data, pageContext, location }) => {
+const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata.title
-  const { previous, next } = pageContext
+  const siteTitle = data.site.siteMetadata?.title || `Title`
+  const { previous, next } = data
   const tags = post.frontmatter.tags || []
 
   return (
@@ -19,24 +18,26 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <article>
+      <article
+        className="blog-post"
+        itemScope
+        itemType="http://schema.org/Article"
+      >
         <header>
-          <h1 style={{ marginTop: rhythm(1), marginBottom: 0 }}>
-            {post.frontmatter.title}
-          </h1>
-          <p
-            style={{ ...scale(-1 / 5), display: `block`, marginBottom: 0 }}
-          ></p>
+          <h1 itemProp="headline">{post.frontmatter.title}</h1>
+          <p>{post.frontmatter.date}</p>
         </header>
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        <section
+          dangerouslySetInnerHTML={{ __html: post.html }}
+          itemProp="articleBody"
+        />
         <TagPreview value={tags} />
-        <hr style={{ marginBottom: rhythm(1) }} />
+        <hr />
         <footer>
           <Bio />
         </footer>
       </article>
-
-      <nav>
+      <nav className="blog-post-nav">
         <ul
           style={{
             display: `flex`,
@@ -69,13 +70,17 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 export default BlogPostTemplate
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
+  query BlogPostBySlug(
+    $id: String!
+    $previousPostId: String
+    $nextPostId: String
+  ) {
     site {
       siteMetadata {
         title
       }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(id: { eq: $id }) {
       id
       excerpt(pruneLength: 160)
       html
@@ -84,6 +89,22 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         tags
+      }
+    }
+    previous: markdownRemark(id: { eq: $previousPostId }) {
+      fields {
+        slug
+      }
+      frontmatter {
+        title
+      }
+    }
+    next: markdownRemark(id: { eq: $nextPostId }) {
+      fields {
+        slug
+      }
+      frontmatter {
+        title
       }
     }
   }

@@ -1,16 +1,14 @@
 backend:
-  name: test-repo
-#  name: git-gateway
-#  branch: master
+  name: git-gateway
+  branch: master
 
+media_folder: static/img
+public_folder: /img
 publish_mode: editorial_workflow
-media_folder: 'static/images/uploads'
-public_folder: '/images/uploads'
-
 collections:
   - name: 'blog'
     label: 'Blog'
-    folder: 'src/blog'
+    folder: 'content/blog'
     create: true
     slug: 'index'
     media_folder: ''
@@ -21,9 +19,6 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - name: tags
-        label: Tags
-        widget: tags
-        seperator: ","
-        required: false
+      - { label: 'Tags', name: 'tags', widget: 'tags', separator: ',', required: false }
