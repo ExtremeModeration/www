@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0cb02cc3-c1f6-45d2-9a1f-4eb43dca74b0" name="Default Changelist" comment="Playing with themes">
+      <change afterPath="$PROJECT_DIR$/src/cms/cms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tagWidget/TagControl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tagWidget/TagPreview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tagWidget/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tagWidget/style.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog/2020-12-26-this-is-a-test.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/blogTemplate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/config.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="cms/blog/2020-12-28-test-two" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mBUyeKs02IBTrsf15OU8UNUu0c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/admin" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Steve\Projects\ExtremeModerationTV\www\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Steve\Projects\ExtremeModerationTV\www\static\admin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Steve\Projects\ExtremeModerationTV\www\src\components\tagWidget" />
+      <recent name="C:\Users\Steve\Projects\ExtremeModerationTV\www\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="clean" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="clean" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.clean" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cb02cc3-c1f6-45d2-9a1f-4eb43dca74b0" name="Default Changelist" comment="" />
+      <created>1608966734993</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608966734993</updated>
+      <workItem from="1608966738260" duration="8753000" />
+      <workItem from="1609144585797" duration="9900000" />
+      <workItem from="1609154518921" duration="2015000" />
+    </task>
+    <task id="LOCAL-00001" summary="Getting netlify config set up">
+      <created>1608968263535</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608968263535</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Removed site-map">
+      <created>1608968574376</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608968574376</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Playing with themes">
+      <created>1608978516567</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608978516567</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added prettier. Changed blog folder.">
+      <created>1609146483632</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609146483632</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Moved blogs">
+      <created>1609146603943</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609146603943</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added simple markdown rendering. tweaked cms fields.">
+      <created>1609151130237</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609151130237</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Getting netlify config set up" />
+    <MESSAGE value="Removed site-map" />
+    <MESSAGE value="Playing with themes" />
+    <MESSAGE value="Added prettier. Changed blog folder." />
+    <MESSAGE value="Moved blogs" />
+    <MESSAGE value="Added simple markdown rendering. tweaked cms fields." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added simple markdown rendering. tweaked cms fields." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
