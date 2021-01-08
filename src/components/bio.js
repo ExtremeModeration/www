@@ -56,13 +56,18 @@ const Bio = () => {
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
           You should follow them on{` `}
-          <a href={`https://twitch.tv/${social?.twitch || ``}`} target="_blank">
+          <a
+            href={`https://twitch.tv/${social?.twitch || ``}`}
+            target="_blank"
+            rel="noreferrer"
+          >
             Twitch
           </a>
           {` `}and{` `}
           <a
             href={`https://twitter.com/${social?.twitter || ``}`}
             target="_blank"
+            rel="noreferrer"
           >
             Twitter
           </a>
