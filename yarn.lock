@@ -1881,6 +1881,7 @@
     "@emotion/styled" "^10.0.0"
     "@mdx-js/react" "^1.0.0"
 
+<<<<<<< Updated upstream
 "@theme-ui/preset-base@0.3.5":
   version "0.3.5"
   resolved "https://registry.yarnpkg.com/@theme-ui/preset-base/-/preset-base-0.3.5.tgz#965676cfae45a373d460949503e381ef810ffbda"
@@ -1904,10 +1905,14 @@
     "@theme-ui/preset-base" "0.3.5"
 
 "@theme-ui/preset-dark@0.3.5", "@theme-ui/preset-dark@^0.3.5":
+=======
+"@theme-ui/preset-dark@^0.3.5":
+>>>>>>> Stashed changes
   version "0.3.5"
   resolved "https://registry.yarnpkg.com/@theme-ui/preset-dark/-/preset-dark-0.3.5.tgz#ce9a0bcc33e24596af03da495e2c78787aa4a9b2"
   integrity sha512-6L2JHh9eMYqj5wBiw5bbs3o1DAh7JDsVQwx1YO2aSx8FwydyhGDJkGvpIjxjgj3qkcZY6grCu8vlOexXKWmI1A==
 
+<<<<<<< Updated upstream
 "@theme-ui/preset-deep@0.3.5":
   version "0.3.5"
   resolved "https://registry.yarnpkg.com/@theme-ui/preset-deep/-/preset-deep-0.3.5.tgz#9956a4ad1cec87db8a96fc073b17249e2a995fe2"
@@ -1980,6 +1985,8 @@
     "@theme-ui/preset-tailwind" "0.3.5"
     "@theme-ui/preset-tosh" "0.3.5"
 
+=======
+>>>>>>> Stashed changes
 "@theme-ui/theme-provider@0.3.5":
   version "0.3.5"
   resolved "https://registry.yarnpkg.com/@theme-ui/theme-provider/-/theme-provider-0.3.5.tgz#98ad67d8e2e38a6347ea604878202f49fea38088"
@@ -5678,10 +5685,17 @@ engine.io@~3.4.0:
     engine.io-parser "~2.2.0"
     ws "^7.1.2"
 
+<<<<<<< Updated upstream
 enhanced-resolve@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-4.3.0.tgz#3b806f3bfafc1ec7de69551ef93cca46c1704126"
   integrity sha512-3e87LvavsdxyoCfGusJnrZ5G8SLPOFeHSNpZI/ATL9a5leXo2k0w6MKnbqhdBad9qTobSfB20Ld7UmgoNbAZkQ==
+=======
+enhanced-resolve@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-4.5.0.tgz#2f3cfd84dbe3b487f18f2db2ef1e064a571ca5ec"
+  integrity sha512-Nv9m36S/vxpsI+Hc4/ZGRs0n9mXqSWGGq49zxb/cJfPAQMbUtttJAlNPS4AQzaBdw/pKskw5bMbekT/Y7W/Wlg==
+>>>>>>> Stashed changes
   dependencies:
     graceful-fs "^4.1.2"
     memory-fs "^0.5.0"
@@ -16398,9 +16412,15 @@ webpack-virtual-modules@^0.2.2:
     debug "^3.0.0"
 
 webpack@^4.44.1, webpack@^4.44.2:
+<<<<<<< Updated upstream
   version "4.45.0"
   resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.45.0.tgz#bcdc1ddb43959adb47f8974e60d944027267c1be"
   integrity sha512-JhDaVi4CbRcwLLAoqC7eugMSMJnZbIfE2AyjaZ19pnOIh/R2O/lXOiXA2tQFN0iXEcxgpPJsPJHW2wOWqiTLcw==
+=======
+  version "4.46.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.46.0.tgz#bf9b4404ea20a073605e0a011d188d77cb6ad542"
+  integrity sha512-6jJuJjg8znb/xRItk7bkT0+Q7AHCYjjFnvKIWQPkNIOyRqoCGvkOs0ipeQzrqz4l5FtN5ZI/ukEHroeX/o1/5Q==
+>>>>>>> Stashed changes
   dependencies:
     "@webassemblyjs/ast" "1.9.0"
     "@webassemblyjs/helper-module-context" "1.9.0"
@@ -16410,7 +16430,11 @@ webpack@^4.44.1, webpack@^4.44.2:
     ajv "^6.10.2"
     ajv-keywords "^3.4.1"
     chrome-trace-event "^1.0.2"
+<<<<<<< Updated upstream
     enhanced-resolve "^4.3.0"
+=======
+    enhanced-resolve "^4.5.0"
+>>>>>>> Stashed changes
     eslint-scope "^4.0.3"
     json-parse-better-errors "^1.0.2"
     loader-runner "^2.4.0"

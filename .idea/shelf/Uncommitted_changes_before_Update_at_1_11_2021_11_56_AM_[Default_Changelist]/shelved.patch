@@ -1,0 +1,76 @@
+Index: .idea/jsLibraryMappings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jsLibraryMappings.xml b/.idea/jsLibraryMappings.xml
+new file mode 100644
+--- /dev/null	(date 1610391249427)
++++ b/.idea/jsLibraryMappings.xml	(date 1610391249427)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="JavaScriptLibraryMappings">
++    <includedPredefinedLibrary name="Node.js Core" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0cb02cc3-c1f6-45d2-9a1f-4eb43dca74b0\" name=\"Default Changelist\" comment=\"Playing with themes\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/gatsby-browser.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/gatsby-browser.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/gatsby-config.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/gatsby-config.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/package.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/package.json\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/bio.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/components/bio.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/components/layout.js\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/normalize.css\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/404.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/404.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/index.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/index.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/pages/using-typescript.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/pages/using-typescript.tsx\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/style.css\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/templates/blog-post.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/templates/blog-post.js\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"CSS File\" />\r\n        <option value=\"JavaScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"cms/blog/2020-12-28-test-two\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1mBUyeKs02IBTrsf15OU8UNUu0c\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"prettierjs.PrettierConfiguration.Package\" value=\"C:\\Users\\Steve\\Projects\\ExtremeModerationTV\\www\\node_modules\\prettier\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"settings.javascript.prettier\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Steve\\Projects\\ExtremeModerationTV\\www\\static\\admin\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Steve\\Projects\\ExtremeModerationTV\\www\\src\\components\\tagWidget\" />\r\n      <recent name=\"C:\\Users\\Steve\\Projects\\ExtremeModerationTV\\www\\src\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"npm.start\">\r\n    <configuration name=\"clean\" type=\"js.build_tools.npm\" nameIsGenerated=\"true\">\r\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\r\n      <command value=\"run\" />\r\n      <scripts>\r\n        <script value=\"clean\" />\r\n      </scripts>\r\n      <node-interpreter value=\"project\" />\r\n      <envs />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"start\" type=\"js.build_tools.npm\" nameIsGenerated=\"true\">\r\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\r\n      <command value=\"start\" />\r\n      <node-interpreter value=\"project\" />\r\n      <envs />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"npm.start\" />\r\n      <item itemvalue=\"npm.clean\" />\r\n    </list>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0cb02cc3-c1f6-45d2-9a1f-4eb43dca74b0\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1608966734993</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1608966734993</updated>\r\n      <workItem from=\"1608966738260\" duration=\"8753000\" />\r\n      <workItem from=\"1609144585797\" duration=\"9900000\" />\r\n      <workItem from=\"1609154518921\" duration=\"2015000\" />\r\n      <workItem from=\"1610345847916\" duration=\"509000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Getting netlify config set up\">\r\n      <created>1608968263535</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1608968263535</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Removed site-map\">\r\n      <created>1608968574376</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1608968574376</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Playing with themes\">\r\n      <created>1608978516567</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1608978516567</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Added prettier. Changed blog folder.\">\r\n      <created>1609146483632</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609146483632</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Moved blogs\">\r\n      <created>1609146603943</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609146603943</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Added simple markdown rendering. tweaked cms fields.\">\r\n      <created>1609151130237</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609151130237</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Getting netlify config set up\" />\r\n    <MESSAGE value=\"Removed site-map\" />\r\n    <MESSAGE value=\"Playing with themes\" />\r\n    <MESSAGE value=\"Added prettier. Changed blog folder.\" />\r\n    <MESSAGE value=\"Moved blogs\" />\r\n    <MESSAGE value=\"Added simple markdown rendering. tweaked cms fields.\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Added simple markdown rendering. tweaked cms fields.\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 8710113784d1e71321f26c37c03364e65e37d03f)
++++ b/.idea/workspace.xml	(date 1610395010348)
+@@ -2,18 +2,8 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="0cb02cc3-c1f6-45d2-9a1f-4eb43dca74b0" name="Default Changelist" comment="Playing with themes">
++      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/components/bio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bio.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/normalize.css" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/pages/using-typescript.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/using-typescript.tsx" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/templates/blog-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog-post.js" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -44,15 +34,19 @@
+   <component name="PropertiesComponent">
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="javascript.nodejs.core.library.configured.version" value="14.13.1" />
++    <property name="javascript.nodejs.core.library.typings.version" value="14.14.20" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="list.type.of.created.stylesheet" value="CSS" />
+     <property name="node.js.detected.package.eslint" value="true" />
+     <property name="node.js.path.for.package.eslint" value="project" />
+     <property name="node.js.selected.package.eslint" value="(autodetect)" />
++    <property name="nodejs_interpreter_path" value="node" />
+     <property name="nodejs_package_manager_path" value="npm" />
+     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Steve\Projects\ExtremeModerationTV\www\node_modules\prettier" />
+-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
++    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+     <property name="vue.rearranger.settings.migration" value="true" />
+   </component>
+   <component name="RecentsManager">
+@@ -99,6 +93,7 @@
+       <workItem from="1609144585797" duration="9900000" />
+       <workItem from="1609154518921" duration="2015000" />
+       <workItem from="1610345847916" duration="509000" />
++      <workItem from="1610391085006" duration="434000" />
+     </task>
+     <task id="LOCAL-00001" summary="Getting netlify config set up">
+       <created>1608968263535</created>
