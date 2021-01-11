@@ -1,9 +1,10 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
+import { Link } from "../components/navigation"
 import Bio from "../components/bio"
 import TagPreview from "../components/tagWidget/TagPreview"
-import Layout from "../components/layout"
+import { Layout } from "../components/layout"
 import SEO from "../components/seo"
 
 const BlogPostTemplate = ({ data, location }) => {
