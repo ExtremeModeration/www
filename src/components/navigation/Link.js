@@ -9,7 +9,7 @@ export const Link = props => {
       color: "primary",
     },
     "&:hover": {
-      color: "secondary",
+      color: "white",
     },
   }
 
