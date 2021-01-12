@@ -3,17 +3,18 @@ import dark from "@theme-ui/preset-dark"
 export default {
   ...dark,
   styles: {
-    body: {
+    root: {
       padding: 0,
       margin: 0,
-    },
-    a: {
-      color: "primary",
-      "&.active": {
+      background: "#241a30",
+      color: "#ddd",
+      a: {
         color: "primary",
-      },
-      "&:hover": {
-        color: "secondary",
+        textDecoration: "none",
+        "&:hover": {
+          color: "white",
+          textDecoration: "underline",
+        },
       },
     },
   },

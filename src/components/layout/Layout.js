@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { Link } from "../navigation"
+import { Link } from "gatsby"
 import { NavBar } from "."
 
 export const Layout = ({ title, children }) => {
@@ -44,6 +44,9 @@ export const Layout = ({ title, children }) => {
       <footer
         sx={{
           width: "100%",
+          paddingBottom: "10px",
+          paddingLeft: "10px",
+          paddingRight: "10px",
           variant: "layout.footer",
         }}
       >

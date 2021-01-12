@@ -50,6 +50,7 @@ export const NavBar = ({ title }) => (
         )
         left
         bottom
+        #1b1524
         no-repeat`,
       backgroundSize: "100% 2px",
     }}
@@ -70,9 +71,7 @@ export const NavBar = ({ title }) => (
     >
       {title}
     </Link>
-    <NavLinkList>
-      <NavLink to="/blog">Blog</NavLink>
-    </NavLinkList>
+    <NavLinkList>{/* <NavLink to="/blog">Blog</NavLink> */}</NavLinkList>
   </nav>
 )
 

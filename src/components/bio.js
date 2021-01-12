@@ -6,9 +6,8 @@
  */
 
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Image from "gatsby-image"
-import { Link } from "../components/navigation"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
