@@ -6,7 +6,7 @@
  */
 
 import React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
 const Bio = () => {
@@ -56,21 +56,21 @@ const Bio = () => {
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
           You should follow them on{` `}
-          <Link
+          <a
             href={`https://twitch.tv/${social?.twitch || ``}`}
             target="_blank"
             rel="noreferrer"
           >
             Twitch
-          </Link>
+          </a>
           {` `}and{` `}
-          <Link
+          <a
             href={`https://twitter.com/${social?.twitter || ``}`}
             target="_blank"
             rel="noreferrer"
           >
             Twitter
-          </Link>
+          </a>
         </p>
       )}
     </div>
