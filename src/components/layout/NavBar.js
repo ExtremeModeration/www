@@ -1,33 +1,23 @@
-/** @jsx jsx */
-import { jsx } from "theme-ui"
+import React from "react"
 import { Link } from "gatsby"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faInstagram, faTwitch } from "@fortawesome/free-brands-svg-icons"
 
 export const NavLinkList = ({ children }) => (
-  <ul
-    sx={{
-      listStyle: "none",
-      display: "flex",
-    }}
-  >
+  <ul className="flex items-center justify-between font-normal text-sm text-white no-underline">
     {children}
   </ul>
 )
 
 export const NavLink = props => {
-  const style = {
-    display: "inline-block",
-    padding: "10px 15px",
-    textDecoration: "none",
-    color: "primary",
-    "&:hover": {
-      color: "white",
-    },
+  let classNames = "hover:text-gray-200 hover:underline px-4"
+  if (props.className !== undefined && props.className !== "") {
+    classNames = `${classNames} ${props.className}`
   }
-
   if (props.href !== undefined) {
     return (
       <li>
-        <a {...props} sx={style}>
+        <a {...props} className={classNames}>
           {props.children}
         </a>
       </li>
@@ -36,7 +26,7 @@ export const NavLink = props => {
 
   return (
     <li>
-      <Link {...props} sx={style}>
+      <Link {...props} className={classNames}>
         {props.children}
       </Link>
     </li>
@@ -44,49 +34,42 @@ export const NavLink = props => {
 }
 
 export const NavBar = ({ title }) => (
-  <nav
-    sx={{
-      width: "100%",
-      paddingLeft: "30px",
-      paddingRight: "10px",
-      paddingBottom: "2px",
-      marginBottom: "10px",
-      display: "flex",
-      justifyContent: "space-between",
-      alignItems: "center",
-      background: `linear-gradient(
-          90deg,
-          rgba(254,0,255,1) 0%,
-          rgba(0,232,255,1) 100%
-        )
-        left
-        bottom
-        #1b1524
-        no-repeat`,
-      backgroundSize: "100% 2px",
-    }}
-  >
-    <Link
-      to="/"
-      sx={{
-        display: "inline-block",
-        textDecoration: "none",
-        padding: "10px 15px",
-        color: "secondary",
-        fontSize: "1.5rem",
-        fontWeight: "bold",
-        "&:hover": {
-          color: "white",
-        },
-      }}
-    >
-      {title}
-    </Link>
-    <NavLinkList>
-      <NavLink href="https://twitch.tv/ExtremeModeration" target="_blank">
-        Twitch
-      </NavLink>
-    </NavLinkList>
+  <nav className="w-full py-4 bg-purple-900 shadow">
+    <div className="w-full container mx-auto flex flex-wrap items-center justify-between">
+      {/* main navigation */}
+      <nav>
+        <NavLinkList>
+          <NavLink to="/" className="font-bold">
+            {title}
+          </NavLink>
+
+          <NavLink to="/blog">Blog</NavLink>
+          <NavLink to="/commissions">Commissions</NavLink>
+        </NavLinkList>
+      </nav>
+
+      {/* socials */}
+      <div className="flex items-center text-lg no-underline text-white pr-6">
+        <a
+          href="https://twitch.tv/ExtremeModeration"
+          target="_blank"
+          rel="noreferrer"
+          title="Twitch: ExtremeModeration"
+        >
+          <FontAwesomeIcon icon={faTwitch} />
+        </a>
+
+        <a
+          href="https://instagram.com/ExtremeModerationTV"
+          target="_blank"
+          rel="noreferrer"
+          title="Instagram: ExtremeModerationTV"
+          className="pl-6"
+        >
+          <FontAwesomeIcon icon={faInstagram} />
+        </a>
+      </div>
+    </div>
   </nav>
 )
 

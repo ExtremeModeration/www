@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 
-import Bio from "../components/bio"
+import Bio from "../components/user/bio"
 import TagPreview from "../components/tagWidget/TagPreview"
 import { Layout } from "../components/layout"
 import SEO from "../components/seo"

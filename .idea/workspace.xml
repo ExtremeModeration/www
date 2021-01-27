@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cb02cc3-c1f6-45d2-9a1f-4eb43dca74b0" name="Default Changelist" comment="Rewrote class as arrow function">
+      <change afterPath="$PROJECT_DIR$/src/components/layout/layout.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user/user.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/bio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/bio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gatsby-plugin-theme-ui/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/blog-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog-post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -41,7 +57,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Steve\Projects\ExtremeModerationTV\www\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -49,6 +65,7 @@
       <recent name="C:\Users\Steve\Projects\ExtremeModerationTV\www\static\admin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Steve\Projects\ExtremeModerationTV\www\src\components\user" />
       <recent name="C:\Users\Steve\Projects\ExtremeModerationTV\www\src\components\tagWidget" />
       <recent name="C:\Users\Steve\Projects\ExtremeModerationTV\www\src" />
     </key>
@@ -88,6 +105,11 @@
       <workItem from="1609144585797" duration="9900000" />
       <workItem from="1609154518921" duration="2015000" />
       <workItem from="1610345847916" duration="554000" />
+      <workItem from="1611095338008" duration="2031000" />
+      <workItem from="1611342304120" duration="5485000" />
+      <workItem from="1611349880410" duration="13654000" />
+      <workItem from="1611695326074" duration="3000" />
+      <workItem from="1611695617988" duration="3308000" />
     </task>
     <task id="LOCAL-00001" summary="Getting netlify config set up">
       <created>1608968263535</created>
