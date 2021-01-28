@@ -1,7 +1,5 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
-
-import Bio from "../components/user/bio"
+import { graphql } from "gatsby"
 import { Layout } from "../components/layout"
 import SEO from "../components/seo"
 import { BlogPostList } from "../components/blog"
