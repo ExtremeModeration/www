@@ -46,12 +46,11 @@ const BlogIndex = ({ data, location }) => {
                         <span className="font-light text-gray-600">
                           {post.frontmatter.date}
                         </span>
-                        <a
-                          href="#"
-                          className="px-2 py-1 bg-gray-600 text-gray-100 font-bold rounded hover:bg-gray-500"
-                        >
-                          Laravel
-                        </a>
+                        {post.frontmatter.tags.map(tag => (
+                          <div className="px-2 py-1 bg-gray-600 text-gray-100 font-bold rounded hover:bg-gray-500">
+                            {tag}
+                          </div>
+                        ))}
                       </div>
                       <div className="mt-2">
                         <Link
@@ -111,6 +110,7 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          tags
         }
       }
     }
