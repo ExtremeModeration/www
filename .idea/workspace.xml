@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cb02cc3-c1f6-45d2-9a1f-4eb43dca74b0" name="Default Changelist" comment="Rewrote class as arrow function">
-      <change afterPath="$PROJECT_DIR$/src/components/layout/layout.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/user/user.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/bio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gatsby-plugin-theme-ui/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user/bio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/bio.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/blog-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog-post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +95,7 @@
       <workItem from="1611342304120" duration="5485000" />
       <workItem from="1611349880410" duration="13654000" />
       <workItem from="1611695326074" duration="3000" />
-      <workItem from="1611695617988" duration="3308000" />
+      <workItem from="1611695617988" duration="8143000" />
     </task>
     <task id="LOCAL-00001" summary="Getting netlify config set up">
       <created>1608968263535</created>
@@ -167,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610395683450</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Swapped to Tailwind CSS. WIP conversion.">
+      <created>1611709085400</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611709085400</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +187,8 @@
     <MESSAGE value="Added simple markdown rendering. tweaked cms fields." />
     <MESSAGE value="More theme tweaking" />
     <MESSAGE value="Rewrote class as arrow function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rewrote class as arrow function" />
+    <MESSAGE value="Swapped to Tailwind CSS. WIP conversion." />
+    <option name="LAST_COMMIT_MESSAGE" value="Swapped to Tailwind CSS. WIP conversion." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

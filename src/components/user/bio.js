@@ -36,42 +36,23 @@ const Bio = () => {
 
   // Set these values by editing "siteMetadata" in gatsby-config.js
   const author = data.site.siteMetadata?.author
-  const social = data.site.siteMetadata?.social
-
   const avatar = data?.avatar?.childImageSharp?.fixed
 
   return (
-    <div className="bio">
-      {avatar && (
-        <Image
-          fixed={avatar}
-          alt={author?.name || ``}
-          className="bio-avatar"
-          imgStyle={{
-            borderRadius: `50%`,
-          }}
-        />
-      )}
-      {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          You should follow them on{` `}
-          <a
-            href={`https://twitch.tv/${social?.twitch || ``}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Twitch
-          </a>
-          {` `}and{` `}
-          <a
-            href={`https://twitter.com/${social?.twitter || ``}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Twitter
-          </a>
-        </p>
+    <div>
+      {author && (
+        <div className="flex items-center">
+          {avatar && (
+            <Image
+              fixed={avatar}
+              alt={author?.name || ``}
+              className="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block"
+            />
+          )}
+          {author?.name && (
+            <h1 className="text-gray-700 font-bold">{author.name}</h1>
+          )}
+        </div>
       )}
     </div>
   )
