@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cb02cc3-c1f6-45d2-9a1f-4eb43dca74b0" name="Default Changelist" comment="Rewrote class as arrow function">
+      <change afterPath="$PROJECT_DIR$/src/components/blog/BlogPostList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/blog/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -94,7 +97,7 @@
       <workItem from="1611342304120" duration="5485000" />
       <workItem from="1611349880410" duration="13654000" />
       <workItem from="1611695326074" duration="3000" />
-      <workItem from="1611695617988" duration="8963000" />
+      <workItem from="1611695617988" duration="10878000" />
     </task>
     <task id="LOCAL-00001" summary="Getting netlify config set up">
       <created>1608968263535</created>
@@ -166,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611863914351</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Plugging in data for tags.">
+      <created>1611865446879</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611865446879</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +205,8 @@
     <MESSAGE value="Rewrote class as arrow function" />
     <MESSAGE value="Swapped to Tailwind CSS. WIP conversion." />
     <MESSAGE value="Blog post formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Blog post formatting" />
+    <MESSAGE value="Plugging in data for tags." />
+    <option name="LAST_COMMIT_MESSAGE" value="Plugging in data for tags." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -5,7 +5,7 @@ export const Layout = ({ title, children }) => {
   return (
     <div className="divide-y divide-gray-100">
       <NavBar title={title} />
-      <main className="p-5">
+      <main className="p-5 w-full">
         <div>{children}</div>
       </main>
       <footer className="p-5">
