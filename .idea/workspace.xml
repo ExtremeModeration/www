@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cb02cc3-c1f6-45d2-9a1f-4eb43dca74b0" name="Default Changelist" comment="Rewrote class as arrow function">
+    <list default="true" id="0cb02cc3-c1f6-45d2-9a1f-4eb43dca74b0" name="Default Changelist" comment="Cleaned up unused imports">
+      <change afterPath="$PROJECT_DIR$/content/blog/.gitkeep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/hello-world/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/hello-world/salty_egg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/testing/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/this-is-another-test/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/blog/BlogPostList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blog/BlogPostList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/NavBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +103,7 @@
       <workItem from="1611342304120" duration="5485000" />
       <workItem from="1611349880410" duration="13654000" />
       <workItem from="1611695326074" duration="3000" />
-      <workItem from="1611695617988" duration="11843000" />
+      <workItem from="1611695617988" duration="15430000" />
     </task>
     <task id="LOCAL-00001" summary="Getting netlify config set up">
       <created>1608968263535</created>
@@ -180,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611877037837</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Cleaned up unused imports">
+      <created>1611877548546</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611877548546</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +227,8 @@
     <MESSAGE value="Blog post formatting" />
     <MESSAGE value="Plugging in data for tags." />
     <MESSAGE value="Extracted blog post list into a component and fixed how much of the page they fill." />
-    <option name="LAST_COMMIT_MESSAGE" value="Extracted blog post list into a component and fixed how much of the page they fill." />
+    <MESSAGE value="Cleaned up unused imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up unused imports" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

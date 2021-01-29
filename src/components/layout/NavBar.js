@@ -43,8 +43,8 @@ export const NavBar = ({ title }) => (
             {title}
           </NavLink>
 
-          <NavLink to="/blog">Blog</NavLink>
-          <NavLink to="/commissions">Commissions</NavLink>
+          {/*<NavLink to="/blog">Blog</NavLink>*/}
+          {/*<NavLink to="/commissions">Commissions</NavLink>*/}
         </NavLinkList>
       </nav>
 
